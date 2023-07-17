@@ -14,6 +14,7 @@
 		853EFE132A65A60B00177EE0 /* TodoListPCR.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 853EFE112A65A60B00177EE0 /* TodoListPCR.xcdatamodeld */; };
 		853EFE152A65A61100177EE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 853EFE142A65A61100177EE0 /* Assets.xcassets */; };
 		853EFE182A65A61100177EE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 853EFE162A65A61100177EE0 /* LaunchScreen.storyboard */; };
+		853EFE202A65AE8000177EE0 /* TodoItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853EFE1F2A65AE8000177EE0 /* TodoItemController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		853EFE142A65A61100177EE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		853EFE172A65A61100177EE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		853EFE192A65A61100177EE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		853EFE1F2A65AE8000177EE0 /* TodoItemController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoItemController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				853EFE082A65A60B00177EE0 /* AppDelegate.swift */,
 				853EFE0A2A65A60B00177EE0 /* SceneDelegate.swift */,
 				853EFE0C2A65A60B00177EE0 /* ViewController.swift */,
+				853EFE1F2A65AE8000177EE0 /* TodoItemController.swift */,
 				853EFE0E2A65A60B00177EE0 /* Main.storyboard */,
 				853EFE142A65A61100177EE0 /* Assets.xcassets */,
 				853EFE162A65A61100177EE0 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				853EFE202A65AE8000177EE0 /* TodoItemController.swift in Sources */,
 				853EFE0D2A65A60B00177EE0 /* ViewController.swift in Sources */,
 				853EFE092A65A60B00177EE0 /* AppDelegate.swift in Sources */,
 				853EFE0B2A65A60B00177EE0 /* SceneDelegate.swift in Sources */,
